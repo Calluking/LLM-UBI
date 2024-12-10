@@ -38,7 +38,7 @@ See implementation of `finland_2017_scaled` Bracket for example.
 
 3. TREATMENT GROUP: Continue to simulate the society with UBI policy:
    ```
-   cmd = f"""python simulate-continue-UBI.py --episode_length={episode_length} --case={place} --duration={duration} --data_path="{origin}" """
+    cmd = f"""python simulate-continue-UBI.py --episode_length={episode_length} --case={place} --duration={duration} --data_path="{origin}" """
     ubi_path = f"data/gpt-3-noperception-reflection-1-50agents-{episode_length}months-{place}-{world_start_time_str}_continue_duration{duration}_ubi{ubi}"
     os.system(cmd)
     ```
